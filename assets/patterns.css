@@ -1,0 +1,44 @@
+/* SkyDrop — Brand Colours & Design Tokens */
+
+:root {
+  /* Primary */
+  --color-primary: #0b3d91;
+  --color-primary-light: #1a5bc4;
+  --color-primary-dark: #082a63;
+
+  /* Accent */
+  --color-accent: #00b4d8;
+  --color-accent-light: #7dd8e8;
+
+  /* Neutrals */
+  --color-dark: #1a1a2e;
+  --color-text: #2d2d2d;
+  --color-text-light: #555555;
+  --color-white: #ffffff;
+  --color-light: #f4f7fa;
+  --color-border: #dde3ea;
+
+  /* Feedback */
+  --color-success: #2a9d3e;
+  --color-error: #e74c3c;
+
+  /* Other */
+  --color-footer-text: #c8cdd3;
+  --color-muted: #d0d8e0;
+
+  /* Design tokens */
+  --radius: 4px;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #0b3d91, #00b4d8);
+  --gradient-hero: linear-gradient(135deg, #082a63 0%, #0b3d91 50%, #00b4d8 100%);
+  --gradient-accent-bar: linear-gradient(90deg, #0b3d91, #00b4d8);
+  --gradient-stat-text: linear-gradient(135deg, #ffffff, #67e8f9);
+  --gradient-overlay-dark: linear-gradient(135deg, rgba(8,42,99,0.92), rgba(11,61,145,0.88));
+
+  /* Social brand colours (for hover states) */
+  --social-x: #000000;
+  --social-linkedin: #0a66c2;
+  --social-instagram: #e4405f;
+  --social-facebook: #1877f2;
+}

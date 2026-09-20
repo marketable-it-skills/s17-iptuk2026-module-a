@@ -1,1 +1,659 @@
-{}
+{
+  "totalMark": 17,
+  "wsosSections": {
+    "1": "Work organization and self-management",
+    "2": "Communication and interpersonal skills",
+    "3": "Design Implementation",
+    "4": "Front-End Development"
+  },
+  "subCriterions": [
+    {
+      "name": "General",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Project files are organised with clear separation of concerns (markup, styles, scripts, assets)",
+          "maxMark": 0.25,
+          "wsosSection": 1,
+          "extraDescription": "Test: HTML, CSS, JavaScript, and assets are in clearly separated files or folders, not mixed into a single unstructured file.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "All 3 pages include the provided favicon",
+          "maxMark": 0.25,
+          "wsosSection": 1,
+          "extraDescription": "Test: Home, About, and Contact each include a favicon from assets/img/favicon-dark/ or assets/img/favicon-light/.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Copyright year in footer is set dynamically with JavaScript",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "extraDescription": "Test: the footer copyright year equals the current calendar year and is written by JavaScript, not a hardcoded year alone.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Code quality — clean, well-structured, consistent naming and indentation",
+          "maxMark": 0.5,
+          "wsosSection": 1,
+          "judgementScoreDescription": [
+            "Code is messy, inconsistent indentation, no structure",
+            "Some structure but inconsistent naming or formatting",
+            "Well-structured, consistent naming, minor issues",
+            "Excellent — clean, readable, well-organised code throughout"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Accessibility and Standards",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Valid HTML5 (no errors in W3C validator) - ignore warnings",
+          "maxMark": 0.25,
+          "wsosSection": 2,
+          "extraDescription": "Test: run the W3C Markup validator on all pages. Pass if there are 0 errors. Warnings may be ignored.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Valid CSS3 (no errors in W3C validator) - ignore warnings",
+          "maxMark": 0.25,
+          "wsosSection": 2,
+          "extraDescription": "Test: run the W3C CSS validator on the project stylesheets. Pass if there are 0 errors. Warnings may be ignored.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Border radius follows the 4px sharp-corner design token, except intentional circles/icons",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: buttons, cards, inputs, and similar boxes use 4px radius. Circular icon badges and similar round elements may stay round.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Sufficient colour contrast — no WAVE contrast errors on any page",
+          "maxMark": 0.25,
+          "wsosSection": 2,
+          "extraDescription": "Test: run WAVE Contrast on Home, About, and Contact. Pass if there are 0 contrast errors on every page.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "ARIA labels present on interactive elements (navigation, buttons, form controls, social/icon links)",
+          "maxMark": 0.25,
+          "wsosSection": 2,
+          "extraDescription": "Test: navigation links, buttons, form controls, and social/icon-only links have an accessible name (visible text, aria-label, or equivalent).",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Active page in navigation is visually indicated and not a link",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: on each page the current nav item is visually distinct from the others and is not an anchor to the same page.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Home Page",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Sticky header — fixed on scroll, white background, logo left, nav right",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "Test: scroll the Home page. The header stays fixed, has a white background and subtle shadow, with the logo on the left and Home/About/Contact on the right.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Hero — video background plays and loops",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "Test: the hero uses a full-screen video background that plays and loops without requiring user interaction.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Hero — dark overlay over video with sufficient contrast for white text",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: a dark overlay sits over the hero video so heading and paragraph text remain readable.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Hero — rotating text animation cycles through 3 words with vertical slide",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "extraDescription": "Test: the hero heading cycles Medicine → Food → Parcels with a vertical slide-up animation.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Hero — two buttons side by side (primary filled + outline)",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: Get Started is a primary filled button linking to Contact; Learn More is an outline light button linking to About; they sit side by side.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "All buttons use left-to-right fill sweep animation on hover",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: hover several buttons (hero, CTA, and at least one other page). A left-to-right fill sweep plays and the colours invert.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Features — 6 cards in 3-column grid",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: the Features section shows 6 cards in a 3-column grid on desktop, with the headings from the brief (15-Minute Delivery through Live Tracking).",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Features — cards have gradient rounded-square icons",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: each feature card has a rounded-square icon on a primary-to-accent gradient background.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Features — card hover: lift, shadow, accent bottom border, icon scale",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: hover a feature card. It lifts, the shadow deepens, an accent bottom border appears, and the icon scales up.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Stats — parallax background image with dark overlay",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: the Stats section uses a CSS parallax background (parallax-sky.jpg or equivalent) with a dark overlay.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Stats — 4 counters animate from 0 to target on scroll",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "extraDescription": "Test: scroll the Stats section into view. Four numbers animate from 0 to their targets with an eased motion.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Stats — numbers have gradient text fill (white to accent)",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: stat numbers use a gradient text fill from white to accent.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Stats — glass-effect cards with semi-transparent background",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: each of the four stats sits in a semi-transparent glass-style card.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "How It Works — 4 step cards with gradient top border",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: four step cards sit in a row on a light background, each with a gradient accent bar on the top edge.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "How It Works — numbered circles with gradient and shadow",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: each step has a numbered circle with a primary-to-accent gradient and a drop shadow.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "How It Works — cards lift on hover",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: hover a How It Works card; it lifts.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "CTA — gradient background with decorative translucent circles",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: the CTA section uses a primary-dark → primary → accent gradient and decorative translucent circles in the background.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "CTA — frosted-glass icon badge above heading",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: a frosted-glass icon badge (fa-paper-plane) is centred above the CTA heading.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Footer — light logo, description, 4 social icons, 3 link columns",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: footer background is #1a1a2e. Column 1 has the light logo, description, and X/LinkedIn/Instagram/Facebook icons. Columns 2–4 are Company, Services, and Legal with headings and link lists.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Footer — social icons use platform brand colours on hover (X, LinkedIn, Instagram, Facebook)",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: hover each social icon. Colours match X #000000, LinkedIn #0a66c2, Instagram #e4405f, Facebook #1877f2.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Overall visual accuracy to the provided mockup",
+          "maxMark": 1.2,
+          "wsosSection": 3,
+          "judgementScoreDescription": [
+            "Major sections missing or unrecognisable from mockup",
+            "Layout roughly matches but significant spacing, colour, or styling differences",
+            "Good match with minor inconsistencies in spacing or details",
+            "Near-identical to mockup — colours, spacing, typography, and effects all match"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "About Page",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Page hero — gradient background with decorative circles",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: the About page hero has a gradient background and decorative circles.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Page hero — icon badge and breadcrumb navigation",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: the About hero includes a frosted icon badge (fa-rocket) and a breadcrumb (Home / About).",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Mission section — two-column layout (image left, text right)",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: Mission is two columns on desktop: image on the left, text on the right.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Mission section — floating stat overlay card on image",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: a floating stat overlay card sits on the Mission image.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Mission section — tag label above heading, accent underline on heading",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: a tag label sits above the Mission heading, and the heading has an accent underline.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Values section — parallax background with dark overlay",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: Values uses a dark parallax background with an overlay.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Values section — 3 value cards with icons",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: three value cards are present with icons and the headings Safety First, Sustainability, and Community.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Team section — 3 member cards with photos, names, titles",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: three team cards show a photo, name, and title each.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "CTA section present and styled consistently with home page",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: About includes a CTA section that matches the Home CTA (gradient, decorative circles, badge, outline button).",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Design consistency and creative interpretation of wireframe",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "judgementScoreDescription": [
+            "No visual relationship to the home page or brand",
+            "Some brand colours used but layout or styling inconsistent",
+            "Consistent with home page, minor creative gaps",
+            "Strong creative interpretation — feels like the same designer built both pages"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Contact Page",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Contact page design is visually consistent with Home/About brand system",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: Contact uses the same colours, radius, typography, and header/footer language as Home and About.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Contact details displayed (address, email, phone, hours)",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: the page shows the Head Office address, email addresses, phone number, and operations hours from assets/texts.txt.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Contact form with all required fields (first_name, last_name, email, phone, subject dropdown with the six options listed in the brief, message)",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "extraDescription": "Test: the form includes First Name, Last Name, Email, optional Phone, Subject dropdown (Request a Demo, Pricing & Plans, Partnership Enquiry, Technical Support, Press & Media, Other), Message, and Submit.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Form validates required fields with visual error feedback",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "extraDescription": "Test: submit with required fields empty. Invalid fields show a visible error state. Phone may stay empty.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Form validates email format",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "extraDescription": "Test: enter an invalid email (for example 'not-an-email') with other required fields filled. The email field shows a visible error and the form does not succeed.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Form success state on submission",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "extraDescription": "Test: submit valid data. A success state is shown (message, replacement panel, or equivalent). No backend is required.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Map with location present",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: a map (embed, image, or equivalent) representing the Head Office location is visible on the Contact page.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Social media links present",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: Contact includes social links for X, LinkedIn, Instagram, and Facebook.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "CTA section and footer present",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "Test: Contact includes a CTA section and a footer consistent with the other pages.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Overall design quality — layout, spacing, visual consistency with other pages",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "judgementScoreDescription": [
+            "Barely functional, no design effort",
+            "Basic layout but visually disconnected from other pages",
+            "Good design with consistent brand feel, minor issues",
+            "Excellent — professional, cohesive, creative layout"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Responsive Design",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Mobile hamburger navigation menu functional",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "extraDescription": "Test: at 480px width, a hamburger control opens and closes the navigation and the links work.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Home page layout is usable at 1024px (desktop; must still scale cleanly on larger/4K screens)",
+          "maxMark": 0.2,
+          "wsosSection": 3,
+          "extraDescription": "Test: at 1024px width, Home has no horizontal overflow and sections remain readable. Widen toward a large/4K window: the desktop layout continues to scale without clipping.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Home page layout is usable at 768px",
+          "maxMark": 0.2,
+          "wsosSection": 3,
+          "extraDescription": "Test: at 768px width, Home has no horizontal overflow and content remains usable. Compare with assets/samples/768px.png if helpful.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Home page layout is usable at 480px",
+          "maxMark": 0.2,
+          "wsosSection": 3,
+          "extraDescription": "Test: at 480px width, Home has no horizontal overflow and content remains usable. Compare with assets/samples/480px.png if helpful.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "About page layout is usable at 1024px (desktop; must still scale cleanly on larger/4K screens)",
+          "maxMark": 0.2,
+          "wsosSection": 3,
+          "extraDescription": "Test: at 1024px width, About has no horizontal overflow. Widen toward a large/4K window: the desktop layout continues to scale without clipping.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "About page layout is usable at 768px",
+          "maxMark": 0.2,
+          "wsosSection": 3,
+          "extraDescription": "Test: at 768px width, About has no horizontal overflow and content remains usable.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "About page layout is usable at 480px",
+          "maxMark": 0.2,
+          "wsosSection": 3,
+          "extraDescription": "Test: at 480px width, About has no horizontal overflow and content remains usable.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Contact page layout is usable at 1024px (desktop; must still scale cleanly on larger/4K screens)",
+          "maxMark": 0.2,
+          "wsosSection": 3,
+          "extraDescription": "Test: at 1024px width, Contact has no horizontal overflow. Widen toward a large/4K window: the desktop layout continues to scale without clipping.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Contact page layout is usable at 768px",
+          "maxMark": 0.2,
+          "wsosSection": 3,
+          "extraDescription": "Test: at 768px width, Contact has no horizontal overflow and content remains usable.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Contact page layout is usable at 480px",
+          "maxMark": 0.2,
+          "wsosSection": 3,
+          "extraDescription": "Test: at 480px width, Contact has no horizontal overflow and content remains usable.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        }
+      ]
+    }
+  ]
+}

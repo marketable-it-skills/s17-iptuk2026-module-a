@@ -1,0 +1,184 @@
+============================================================
+HOME PAGE
+============================================================
+
+[HERO]
+Heading: Delivering {Medicine / Food / Parcels} Without Limits
+Paragraph: SkyDrop brings autonomous drone delivery to your city. Faster than ground transport, greener than traditional logistics, and available when you need it most.
+Button 1: Get Started (links to Contact)
+Button 2: Learn More (links to About)
+
+[FEATURES]
+Section heading: Built for Speed. Designed for Safety.
+Section subheading: Our drone network bypasses traffic, cuts emissions, and delivers in minutes. Here is what makes SkyDrop different.
+
+Card 1 — 15-Minute Delivery
+Average delivery time from order to doorstep. Our drones fly direct routes with no traffic delays, ensuring your packages arrive in minutes.
+
+Card 2 — Collision Avoidance
+Every drone has 360-degree obstacle detection, real-time weather monitoring, and automated no-fly zone compliance for safe operations.
+
+Card 3 — Zero Emissions
+All-electric fleet charged by renewable energy. Each drone delivery saves an average of 1.2 kg of CO2 compared to traditional van delivery.
+
+Card 4 — City-Wide Coverage
+Our network of launch stations covers 95% of the metro area. City centre or suburbs — SkyDrop reaches your customers wherever they are.
+
+Card 5 — Smart Packaging
+Temperature-controlled compartments, tamper-proof seals, and real-time condition monitoring. Every package arrives in perfect condition.
+
+Card 6 — Live Tracking
+Full visibility from dispatch to delivery. Your customers watch their drone approach in real time with accurate arrival predictions.
+
+[STATS]
+Section heading: The Numbers Speak for Themselves
+Stat 1: 250,000+ — Deliveries Completed
+Stat 2: 48 — Active Stations
+Stat 3: 340 — Drones in Fleet
+Stat 4: 99% — On-Time Rate
+
+[HOW IT WORKS]
+Section heading: From Click to Doorstep in Four Steps
+Section subheading: Our platform integrates seamlessly with your existing business workflow. Getting started takes minutes.
+
+Step 1 — Register Your Business
+Sign up, add your details, and choose a plan that fits your delivery volume.
+
+Step 2 — Schedule a Pickup
+Enter package details and destination. Our system assigns the nearest available drone.
+
+Step 3 — Drone Dispatched
+A drone launches from the nearest station and flies the optimal route to the address.
+
+Step 4 — Delivered & Confirmed
+Package safely lowered. Instant delivery confirmation with photo sent to both parties.
+
+[CTA]
+Heading: Ready to Transform Your Deliveries?
+Paragraph: Join hundreds of businesses already using SkyDrop. Set up your account in minutes and start delivering by drone today.
+Button: Contact Our Team (links to Contact)
+
+[FOOTER]
+Description: Autonomous drone delivery for modern businesses. Fast, safe, and sustainable last-mile logistics for cities worldwide.
+Column 1 — Company: About Us, Careers, Press Kit, Contact
+Column 2 — Services: Business Delivery, Pharmacy Express, Food Delivery, Enterprise API
+Column 3 — Legal: Terms of Service, Privacy Policy, Cookie Policy, Safety Standards
+Copyright: © {year} SkyDrop Ltd. All rights reserved.
+
+
+============================================================
+ABOUT PAGE
+============================================================
+
+[PAGE HERO]
+Heading: The Sky is Not the Limit. It is the Route.
+Paragraph: We are building the infrastructure for the next generation of urban delivery — faster, cleaner, and smarter than anything on the road.
+Breadcrumb: Home / About
+
+[MISSION]
+Tag: Our Mission
+Heading: Why We Exist
+Paragraph 1: Traditional logistics relies on road networks designed for a different era. Vans sit in traffic, emissions climb, and customers wait for hours. SkyDrop was founded in 2023 to change that.
+Paragraph 2: By building a network of autonomous drone stations, we created a delivery system that bypasses congestion entirely. Today, we serve over 500 local businesses — pharmacies, restaurants, retailers — delivering in minutes, not hours.
+Stat overlay: 500+ Businesses served
+Button: Work With Us (links to Contact)
+
+[VALUES]
+Section heading: What Drives Us
+Section subheading: Safety, sustainability, and community are not buzzwords here. They shape every flight we make.
+
+Card 1 — Safety First
+200+ automated checks before every flight. Zero incidents in populated areas. Full aviation compliance.
+
+Card 2 — Sustainability
+All-electric, renewable-powered fleet. On track to offset 10,000 tonnes of CO2 by 2026.
+
+Card 3 — Community
+We work with local councils and residents. Noise below 55 dB. Flight paths avoid residential areas.
+
+[TEAM]
+Section heading: The People Behind the Drones
+Section subheading: Three founders, one shared obsession: making urban delivery smarter.
+
+Member 1: Elena Vasquez — Chief Executive Officer
+Member 2: Marcus Chen — Chief Technology Officer
+Member 3: Anya Okafor — Chief Operations Officer
+
+[CTA]
+Heading: Want to Join Our Journey?
+Paragraph: We are hiring engineers, operators, and thinkers who want to shape the future of urban logistics.
+Button: Get in Touch (links to Contact)
+
+
+============================================================
+CONTACT PAGE
+============================================================
+
+The design and layout of this page is up to you. The following
+elements MUST be present (see test project brief for full details).
+
+--- Required Elements ---
+
+1. Contact details — all of the following must appear on the page:
+   - Head Office: 47 Innovation Drive, London, EC2A 4NE
+   - Email: hello@skydrop.io
+   - Support email: support@skydrop.io
+   - Phone: +44 207 123 4567
+   - Office hours: Mon–Fri, 08:00–18:00
+   - Delivery operations: 07:00–21:00
+   - Maintenance window: 22:00–05:00
+
+2. Contact form — must include:
+   - First Name (required)
+   - Last Name (required)
+   - Email Address (required, validate format)
+   - Phone Number (optional)
+   - Subject dropdown (required) with options:
+     Request a Demo, Pricing & Plans, Partnership Enquiry,
+     Technical Support, Press & Media, Other
+   - Message textarea (required)
+   - Submit button
+   - Client-side validation with visual error feedback
+   - Success state on submission
+
+3. Map with location
+
+4. Social media links (X, LinkedIn, Instagram, Facebook)
+
+5. CTA section
+
+6. Navigation and footer consistent with other pages
+
+--- Text for use on this page ---
+
+Let's Get Your Deliveries Off the Ground
+
+Whether you want a demo, have a question, or are ready to launch — our team is here to help.
+
+Send Us a Message
+
+Fill in the form and our team will get back to you within 24 hours. For urgent enquiries, call us directly or email support@skydrop.io.
+
+Prefer a Quick Call?
+
+Our sales team is available Monday to Friday to walk you through SkyDrop and answer any questions.
+
+--- Alternative text options (use any of the above OR below) ---
+
+Talk to the Team Behind the Drones
+From pricing enquiries to partnership proposals — we respond within one business day. Let's build something together.
+
+Drop Us a Line
+Got a question about SkyDrop? Want to see a live demo? Our partnerships team is standing by.
+
+Need an Answer Right Now?
+For time-sensitive delivery questions or technical support, our phone lines are open weekdays from 8am to 6pm.
+
+We Would Love to Hear From You
+Starting a new delivery partnership, troubleshooting an issue, or just curious how SkyDrop works — reach out and we will take it from there.
+
+Write to Our Team
+Describe what you need and a member of our team will follow up by email. Response time: under 24 hours.
+
+Prefer to Talk?
+Our London-based team is available by phone Monday to Friday. We are happy to walk you through plans, pricing, or a live demonstration.
