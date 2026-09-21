@@ -1,5 +1,7 @@
 # SkyDrop Marketing Website
 
+![Cover](assets/project-description-images/cover.png)
+
 Build a three-page marketing website for SkyDrop, an autonomous drone delivery startup. Implement the Home page from a provided mockup, interpret an About page wireframe, and design a Contact page from documented requirements.
 
 ## Skill domain(s)
